@@ -1,0 +1,9 @@
+<h1>{{iol.name}}</h1>
+<h4><a href="{{topic.url}}">{{topic.name}}</a></h4>
+<h5><a href="{{course.url}}">{{course.name}}</a></h5>
+
+<ul>
+  <li *ngFor="let kp of iol.knowledgePoints">{{kp}}</li>
+</ul>
+
+<youtube-player *ngFor="let id of iol.youtubeIds" [videoId]="id"></youtube-player>

@@ -1,0 +1,11 @@
+<h1>{{topic.name}}</h1>
+<h3><a href="{{course.url}}">{{course.name}}</a></h3>
+
+<ul>
+  <li *ngFor="let iol of topic.iols"><a href="{{iol.url}}">{{iol.name}}</a></li>
+</ul>
+
+<h3>Notes</h3>
+<ul>
+  <li *ngFor="let note of topic.notes"><a href="{{note.url}}" target="_blank">{{note.source}}</a></li>
+</ul>

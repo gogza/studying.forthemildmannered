@@ -1,0 +1,11 @@
+<h1>{{course.name}}</h1>
+
+<h3>Topics</h3>
+<ul>
+  <li *ngFor="let topic of course.topics"><a href="{{topic.url}}">{{topic.name}}</a></li>
+</ul>
+
+<h3>Example Question Papers</h3>
+<ul>
+  <li *ngFor="let qp of course.questionPapers"><a href="{{qp.url}}" target="_blank">{{qp.name}}</a></li>
+</ul>
