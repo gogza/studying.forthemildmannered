@@ -1,0 +1,16 @@
+<table>
+  <thead>
+    <th>Quantity</th>
+    <th>Symbol</th>
+    <th>Unit</th>
+    <th>Unit Symbol</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let quantity of quantities">
+      <td>{{quantity.name}}</td>
+      <td>{{quantity.symbol}}</td>
+      <td>{{quantity.unit}}</td>
+      <td>{{quantity.unitSymbol}}</td>
+    </tr>
+  </tbody>
+</table>
