@@ -1,0 +1,7 @@
+<ul>  
+  <li *ngFor="let year of years">
+    <h4>{{year}} - <a href="{{pp[year].questionPaperUrl}}">Past paper</a> - <a href="{{pp[year].markingInstructionsUrl}}">Marking instructions</a>
+      <span *ngIf="pp[year].hintsUrl"> - <a href="{{pp[year].hintsUrl}}">Hints</a></span>
+    </h4>
+  </li>
+</ul>

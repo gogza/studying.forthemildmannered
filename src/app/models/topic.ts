@@ -36,6 +36,14 @@ const TOPICS = {
         {
           source: 'Bearsden Academy',
           url: 'http://www.bearsdenacademy.e-dunbarton.sch.uk/media/7336/electricity-complete.pdf',
+        },
+        {
+          source: 'smarshallsay (Gleniffer High)',
+          url: 'https://smarshallsay.weebly.com/uploads/3/1/4/6/3146892/national_5_electricity_summary_notes.pdf',
+        },
+        {
+          source: 'Mr MacKenzie',
+          url: 'https://mrmackenzie.co.uk/wp-content/uploads/2016/03/N5-EE-Pupil-Booklet-v1.1.pdf',
         }
       ],
       iolIds: [
@@ -77,10 +85,6 @@ const TOPICS = {
         {
           source: 'Bearsden Academy',
           url: 'http://www.bearsdenacademy.e-dunbarton.sch.uk/media/7340/radiation-summary.pdf',
-        },
-        {
-          source: 'smarshallsay (Gleniffer High)',
-          url: 'https://smarshallsay.weebly.com/uploads/3/1/4/6/3146892/national_5_electricity_summary_notes.pdf',
         }
       ],
       iolIds: [

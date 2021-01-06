@@ -16,6 +16,19 @@ export const COURSES = {
           'questionPaperUrl': 'https://www.sqa.org.uk/pastpapers/papers/papers/2019/N5_Physics_all_2019.pdf',
           'markingInstructionsUrl': 'https://www.sqa.org.uk/pastpapers/papers/instructions/2019/mi_N5_Physics_mi_2019.pdf',
           'hintsUrl': 'https://hints.nhost.uk/hints/SQA%20Physics%20N5%202019.html'
+        },
+        '2018': {
+          'questionPaperUrl': 'https://www.sqa.org.uk/pastpapers/papers/papers/2018/N5_Physics_all_2018.pdf',
+          'markingInstructionsUrl': 'https://www.sqa.org.uk/pastpapers/papers/instructions/2018/mi_N5_Physics_mi_2018.pdf',
+          'hintsUrl': 'https://hints.nhost.uk/hints/SQA%20Physics%20N5%202018.html',
+        },
+        '2017': {
+          'questionPaperUrl': 'https://www.sqa.org.uk/pastpapers/papers/papers/2017/N5_Physics_all_2017.pdf',
+          'markingInstructionsUrl': 'https://www.sqa.org.uk/pastpapers/papers/instructions/2017/mi_N5_Physics_mi_2017.pdf',
+        },
+        '2016': {
+          'questionPaperUrl': 'https://www.sqa.org.uk/pastpapers/papers/papers/2016/N5_Physics_all_2016.pdf',
+          'markingInstructionsUrl': 'https://www.sqa.org.uk/pastpapers/papers/instructions/2016/mi_N5_Physics_mi_2016.pdf',
         }
       },
       questionPapers: [
@@ -32,11 +45,13 @@ export class Course {
   public readonly url: string
   public readonly topics: Topic[]
   public readonly questionPapers: string[]
+  public readonly pastPapers: any[]
   constructor(public id:string) {
     const course = COURSES[id]
     this.name = course.name
     this.url = `course/${id}`
     this.topics = course.topicIds.map(topicId => new Topic(topicId, id));
+    this.pastPapers = course.pastPapers
     this.questionPapers = course.questionPapers
 
   }

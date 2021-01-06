@@ -31,6 +31,9 @@ const IOLS = {
           ],
           youtubeIds: [
             'kYwNj9uauJ4',
+          ],
+          notes: [
+            { source: 'PhysicsScotland', url: 'https://www.physicsscotland.co.uk/classes/s4-physics/electric-charge'},
           ]
         },
         'potentialdifference': {
@@ -55,6 +58,7 @@ export class ItemOfLearning {
   public readonly url:string
   public readonly knowledgePoints: string[]
   public readonly youtubeIds: string[]
+  public readonly notes: any[]
 
   constructor(public id:string, public topicId: string, public courseId:string) {
     const iol = IOLS[courseId][topicId][id]
@@ -62,5 +66,6 @@ export class ItemOfLearning {
     this.url = `course/${courseId}/topic/${topicId}/iol/${id}`
     this.knowledgePoints = iol.knowledgePoints
     this.youtubeIds = iol.youtubeIds
+    this.notes = iol.notes
   }
 }

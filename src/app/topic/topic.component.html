@@ -6,6 +6,4 @@
 </ul>
 
 <h3>Notes</h3>
-<ul>
-  <li *ngFor="let note of topic.notes"><a href="{{note.url}}" target="_blank">{{note.source}}</a></li>
-</ul>
+<app-notes [notes]="topic.notes"></app-notes>
