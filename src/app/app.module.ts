@@ -10,7 +10,6 @@ import { ItemOfLearningComponent } from './item-of-learning/item-of-learning.com
 import { ExampleComponent } from './example/example.component';
 import { PastPapersComponent } from './past-papers/past-papers.component';
 import { NotesComponent } from './notes/notes.component';
-import { QuantityComponent } from './quantity/quantity.component';
 import { QuantitiesComponent } from './quantities/quantities.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { QuantitiesComponent } from './quantities/quantities.component';
     ExampleComponent,
     PastPapersComponent,
     NotesComponent,
-    QuantityComponent,
     QuantitiesComponent,
   ],
   imports: [
