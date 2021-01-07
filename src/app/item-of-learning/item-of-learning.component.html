@@ -6,14 +6,22 @@
   <li *ngFor="let kp of iol.knowledgePoints"><markdown [data]=kp katex></markdown></li>
 </ul>
 
-<h3>Quantities</h3>
-<app-quantities [quantities]="iol.quantities"></app-quantities>
+<div *ngIf="iol.quantities && iol.quantities.length">
+  <h3>Quantities</h3>
+  <app-quantities [quantities]="iol.quantities"></app-quantities>
+</div>
 
-<h3>Read these notes</h3>
-<app-notes [notes]="iol.notes"></app-notes>
+<div *ngIf="iol.notes && iol.notes.length">
+  <h3>Read these notes</h3>
+  <app-notes [notes]="iol.notes"></app-notes>
+</div>
 
-<h3>Watch these videos</h3>
-<youtube-player *ngFor="let id of iol.youtubeIds" [videoId]="id"></youtube-player>
+<div *ngIf="iol.youtubeIds && iol.youtubeIds.length">
+  <h3>Watch these videos</h3>
+  <youtube-player *ngFor="let id of iol.youtubeIds" [videoId]="id"></youtube-player>
+</div>
 
-<h3>Answer these questions</h3>
-<app-notes [notes]="iol.questionSets"></app-notes>
+<div *ngIf="iol.questionSets && iol.questionSets.length">
+  <h3>Answer these questions</h3>
+  <app-notes [notes]="iol.questionSets"></app-notes>
+</div>

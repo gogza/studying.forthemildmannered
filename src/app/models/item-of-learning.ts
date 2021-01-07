@@ -66,10 +66,31 @@ const IOLS = {
           ],
         },
         'potentialdifference': {
-          name: 'Potential Difference'
+          name: 'Potential Difference',
+          knowledgePoints: [
+            'Knowledge that a charged particle experiences a force in an electric field.',
+            'Knowledge of the path a charged particle follows: between two oppositely charged parallel plates; near a single point charge; between two oppositely charged points; between two like charged points.',
+            'Knowledge that the potential difference (voltage) of the supply is a measure of the energy given to the charge carriers in a circuit.',
+          ],
+          quantities: [
+            {
+              name: 'Voltage',
+              symbol: 'V',
+              unit: 'Volt',
+              unitSymbol: 'V',
+            },
+          ],
+          youtubeIds: [
+          ],
         },
         'ohmslaw': {
-          name: 'Ohm\'s Law'
+          name: 'Ohm\'s Law',
+          knowledgePoints: [
+            'Calculation of the gradient of the line of best fit on a $V-I$ graph to determine resistance.',
+            'Use of appropriate relationships to solve problems involving potential difference (voltage), current and resistance.   \n$V=IR\\newline V_2=\\bigg(\\dfrac{R_2}{R_1 + R_2}\\bigg)V_S\\newline \\dfrac{V_1}{V_2}=\\dfrac{R_1}{R_2}$',
+            'Knowledge of the qualitative relationship between the temperature and resistance of a conductor.',
+            'Description of an experiment to verify Ohm’s law.'
+          ],
         },
         'practicalelectricalandelectroniccircuits': {
           name: 'Practical Electrical and Electronic Circuits'
