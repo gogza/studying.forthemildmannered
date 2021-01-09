@@ -86,13 +86,14 @@ const IOLS = {
             },
           ],
           youtubeIds: [
+            'z8qfhFXjsrw',
           ],
           notes: [
             { resourceId:'leckiesuccess', pages: 'p60-63'},
             { resourceId:'bearsdenelectricity', url: 'http://www.bearsdenacademy.e-dunbarton.sch.uk/media/7336/electricity-complete.pdf', pages: 'p1-2'},
-            { resourceId:'smarshallsayelectricity', url: 'https://smarshallsay.weebly.com/uploads/3/1/4/6/3146892/national_5_electricity_summary_notes.pdf', pages: 'p4-6'},
-            { resourceId:'mrmackenzieelectricity', url: 'https://mrmackenzie.co.uk/wp-content/uploads/2016/03/N5-EE-Pupil-Booklet-v1.1.pdf', pages: 'p15-17'},
-            { resourceId:'physicsscotlandelectriccharge', url: 'https://www.physicsscotland.co.uk/classes/s4-physics/electric-charge', pages: 'top half'},
+            { resourceId:'smarshallsayelectricity', pages: 'p4-6'},
+            { resourceId:'mrmackenzieelectricity', pages: 'p15-17'},
+            { resourceId:'physicsscotlandelectriccharge', pages: 'top half'},
           ],
           questionSets: [
             { resourceId: 'leckiepractice', pages: 'p46'},
@@ -110,6 +111,16 @@ const IOLS = {
             'Use of appropriate relationships to solve problems involving potential difference (voltage), current and resistance.   \n$V=IR\\newline V_2=\\bigg(\\dfrac{R_2}{R_1 + R_2}\\bigg)V_S\\newline \\dfrac{V_1}{V_2}=\\dfrac{R_1}{R_2}$',
             'Knowledge of the qualitative relationship between the temperature and resistance of a conductor.',
             'Description of an experiment to verify Ohm’s law.'
+          ],
+          youtubeIds: [
+            'AXkXBV6L4_Q',
+          ],
+          notes: [
+            { resourceId:'leckiesuccess', pages: 'p64-65'},
+            { resourceId:'bearsdenelectricity', pages: 'p3'},
+            { resourceId:'smarshallsayelectricity', pages: 'p7-8'},
+            { resourceId:'mrmackenzieelectricity', pages: 'p19-21'},
+            { resourceId:'physicsscotlandohmslaw', pages: 'all'},
           ],
           questionSets: [
             { resourceId: 'leckiepractice', pages: 'p47-48'},
@@ -130,6 +141,14 @@ const IOLS = {
             'Knowledge of the effect on the total resistance of a circuit of adding further resistance in series or in parallel.',
             'Use of appropriate relationships to solve problems involving the total resistance of resistors in series and in parallel circuits, and in circuits with a combination of series and parallel resistors.  \n $R_s = R_1 + R_2 + \\dots\\newline \\dfrac{1}{R_p}= \\dfrac{1}{R_1} + \\dfrac{1}{R_2} +\\dots$',
           ],
+          notes: [
+            { resourceId:'leckiesuccess', pages: 'p66-73'},
+            { resourceId:'bearsdenelectricity', pages: 'p2, p4, p6-9'},
+            { resourceId:'smarshallsayelectricity', pages: 'p9-20'},
+            { resourceId:'mrmackenzieelectricity', pages: 'p23-31'},
+            { resourceId:'physicsscotlandseriescircuits', pages: 'all'},
+            { resourceId:'physicsscotlandparallelcircuits', pages: 'all'},
+          ],
           questionSets: [
             { resourceId: 'leckiepractice', pages: 'p49-56'},
             { resourceId: 'mrmackenzieelectricity', pages: 'p30-31'},
@@ -146,6 +165,13 @@ const IOLS = {
             'Knowledge of the effect of potential difference (voltage) and resistance on the current in and power developed across components in a circuit.',
             'Use of appropriate relationships to solve problems involving power, potential difference (voltage), current and resistance in electrical circuits.   \n $P=IR\\newline P=I^2R\\newline P=\\dfrac{V^2}{R}$',
             'Selection of an appropriate fuse rating given the power rating of an electrical appliance. A 3A fuse should be selected for most appliances rated up to 720W, a 13A fuse for appliances rated over 720W.',
+          ],
+          notes: [
+            { resourceId:'leckiesuccess', pages: 'p74-77'},
+            { resourceId:'bearsdenelectricity', pages: 'p?'},
+            { resourceId:'smarshallsayelectricity', pages: 'p?'},
+            { resourceId:'mrmackenzieelectricity', pages: 'p?'},
+            { resourceId:'physicsscotlandseriescircuits', pages: 'all'},
           ],
           questionSets: [
             { resourceId: 'leckiepractice', pages: 'p57-60'},

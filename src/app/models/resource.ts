@@ -18,6 +18,18 @@ export const RESOURCES = {
     source: 'PhysicsScotland - Electric Charge',
     url: 'https://www.physicsscotland.co.uk/classes/s4-physics/electric-charge'
   },
+  'physicsscotlandohmslaw': {
+    source: 'PhysicsScotland - Ohm\'s Law',
+    url: 'https://www.physicsscotland.co.uk/classes/s4-physics/ohm-s-law'
+  },
+  'physicsscotlandseriescircuits': {
+    source: 'PhysicsScotland - Series Circuits',
+    url: 'https://www.physicsscotland.co.uk/classes/s4-physics/series-circuit-applications'
+  },
+  'physicsscotlandparallelcircuits': {
+    source: 'PhysicsScotland - Parallel Circuits',
+    url: 'https://www.physicsscotland.co.uk/classes/s4-physics/parallel-circuit-applications'
+  },
   'leckiepractice': {
     source: 'Leckie - Practice Workbook (book)'
   },
