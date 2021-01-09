@@ -34,16 +34,16 @@ const TOPICS = {
       name: 'Electricity',
       notes: [
         {
-          source: 'Bearsden Academy',
-          url: 'http://www.bearsdenacademy.e-dunbarton.sch.uk/media/7336/electricity-complete.pdf',
+          resourceId: 'bearsdenelectricity',
+          pages: 'all',
         },
         {
-          source: 'smarshallsay (Gleniffer High)',
-          url: 'https://smarshallsay.weebly.com/uploads/3/1/4/6/3146892/national_5_electricity_summary_notes.pdf',
+          resourceId: 'smarshallsayelectricity',
+          pages: 'all',
         },
         {
-          source: 'Mr MacKenzie',
-          url: 'https://mrmackenzie.co.uk/wp-content/uploads/2016/03/N5-EE-Pupil-Booklet-v1.1.pdf',
+          resourceId: 'mrmackenzieelectricity',
+          pages: 'all',
         }
       ],
       iolIds: [

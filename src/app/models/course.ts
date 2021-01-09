@@ -11,6 +11,7 @@ export const COURSES = {
         'waves',
         'radiation',
       ],
+      specification: 'https://www.sqa.org.uk/files_ccc/N5CourseSpecPhysics.pdf',
       pastPapers: {
         '2019': {
           'questionPaperUrl': 'https://www.sqa.org.uk/pastpapers/papers/papers/2019/N5_Physics_all_2019.pdf',

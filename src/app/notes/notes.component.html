@@ -1,5 +1,5 @@
 <ul>
-  <li *ngFor="let note of notes">
+  <li *ngFor="let note of resolvedNotes">
     <span *ngIf="note.url">
       <a href="{{note.url}}" target="_blank">{{note.source}}</a>: read {{note.pages}}
     </span>

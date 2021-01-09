@@ -13,6 +13,8 @@ export class ItemOfLearningComponent implements OnInit {
   public course: Course
   public topic: Topic
   public iol: ItemOfLearning
+  public prev: ItemOfLearning
+  public next: ItemOfLearning
 
   constructor(
     private route: ActivatedRoute
@@ -24,6 +26,12 @@ export class ItemOfLearningComponent implements OnInit {
     this.course = new Course(courseId)
     this.topic = new Topic(topicId, courseId)
     this.iol = new ItemOfLearning(this.route.snapshot.params['iolId'], topicId, courseId)
+    if (this.iol.prev) {
+      this.prev = new ItemOfLearning(this.iol.prev, topicId, courseId)
+    }
+    if (this.iol.next) {
+      this.next = new ItemOfLearning(this.iol.next, topicId, courseId)
+    }
   }
 
 }

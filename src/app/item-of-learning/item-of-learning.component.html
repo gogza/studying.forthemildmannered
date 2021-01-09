@@ -1,6 +1,6 @@
-<h1>{{iol.name}}</h1>
+<h2>{{iol.name}} - ({{iol.size}})</h2>
 <h5><a href="{{topic.url}}">{{topic.name}}</a> - <a href="{{course.url}}">{{course.name}}</a></h5>
-
+<h5><a *ngIf="prev" href="{{prev.url}}">&lt; Previous</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a *ngIf="next" href="{{next.url}}">Next &gt;&gt;&gt;</a></h5>
 <h3>What you need to know</h3>
 <ul>
   <li *ngFor="let kp of iol.knowledgePoints"><markdown [data]=kp katex></markdown></li>
