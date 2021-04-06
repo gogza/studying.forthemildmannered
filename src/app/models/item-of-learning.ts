@@ -51,6 +51,9 @@ const IOLS = {
               unitSymbol: 's',
             },
           ],
+          tools: [
+            { resourceId: 'phetchargesandfields' },
+          ],
           youtubeIds: [
             'kYwNj9uauJ4',
           ],
@@ -141,6 +144,13 @@ const IOLS = {
             'Knowledge of the effect on the total resistance of a circuit of adding further resistance in series or in parallel.',
             'Use of appropriate relationships to solve problems involving the total resistance of resistors in series and in parallel circuits, and in circuits with a combination of series and parallel resistors.  \n $R_s = R_1 + R_2 + \\dots\\newline \\dfrac{1}{R_p}= \\dfrac{1}{R_1} + \\dfrac{1}{R_2} +\\dots$',
           ],
+          tools: [
+            { resourceId:'phetcircuitconstructionkit'},
+          ],
+          youtubeIds:[
+            'je2XQFTH2rU',
+            'Gc5QOCkhkiE',
+          ],
           notes: [
             { resourceId:'leckiesuccess', pages: 'p66-73'},
             { resourceId:'bearsdenelectricity', pages: 'p2, p4, p6-9'},
@@ -166,12 +176,16 @@ const IOLS = {
             'Use of appropriate relationships to solve problems involving power, potential difference (voltage), current and resistance in electrical circuits.   \n $P=IR\\newline P=I^2R\\newline P=\\dfrac{V^2}{R}$',
             'Selection of an appropriate fuse rating given the power rating of an electrical appliance. A 3A fuse should be selected for most appliances rated up to 720W, a 13A fuse for appliances rated over 720W.',
           ],
+          youtubeIds:[
+            'sVTWG1hlo_U',
+            'HQNM13AvKyk',
+          ],
           notes: [
             { resourceId:'leckiesuccess', pages: 'p74-77'},
-            { resourceId:'bearsdenelectricity', pages: 'p?'},
-            { resourceId:'smarshallsayelectricity', pages: 'p?'},
-            { resourceId:'mrmackenzieelectricity', pages: 'p?'},
-            { resourceId:'physicsscotlandseriescircuits', pages: 'all'},
+            { resourceId:'bearsdenelectricity', pages: 'p9'},
+            { resourceId:'smarshallsayelectricity', pages: 'p21-22'},
+            { resourceId:'mrmackenzieelectricity', pages: 'p32-37'},
+            { resourceId:'physicsscotlandelectricalpower', pages: 'all'},
           ],
           questionSets: [
             { resourceId: 'leckiepractice', pages: 'p57-60'},
@@ -193,6 +207,7 @@ export class ItemOfLearning {
   public readonly knowledgePoints: string[]
   public readonly youtubeIds: string[]
   public readonly notes: any[]
+  public readonly tools: any[]
   public readonly questionSets: any[]
   public readonly quantities: any[]
 
@@ -206,6 +221,7 @@ export class ItemOfLearning {
     this.notes = iol.notes
     this.questionSets = iol.questionSets
     this.quantities = iol.quantities
+    this.tools = iol.tools
     if (iol.prev) {
       this.prev = iol.prev
     }

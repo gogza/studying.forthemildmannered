@@ -30,12 +30,28 @@ export const RESOURCES = {
     source: 'PhysicsScotland - Parallel Circuits',
     url: 'https://www.physicsscotland.co.uk/classes/s4-physics/parallel-circuit-applications'
   },
+  'physicsscotlandelectricalpower': {
+    source: 'PhysicsScotland - Enery & Power',
+    url: 'https://www.physicsscotland.co.uk/classes/s4-physics/energy-and-power'
+  },
   'leckiepractice': {
     source: 'Leckie - Practice Workbook (book)'
   },
   'mrsphysics': {
     source: 'Mrs Physics - Learning Outcome Questions',
     url: 'https://mrsphysics.co.uk/n5/wp-content/uploads/2019/12/LOQ-N5-2019-final-12-2019.pdf'
+  },
+  'phetcircuitconstructionkit': {
+    source: 'PHet Circuit Construction Kit',
+    url: 'https://phet.colorado.edu/sims/html/circuit-construction-kit-dc-virtual-lab/latest/circuit-construction-kit-dc-virtual-lab_en.html'
+  },
+  'phetchargesandfields': {
+    source: 'PHet Charge & Fields',
+    url: 'https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_en.html'
+  },
+  'phetohmslaw': {
+    source: 'PHet Ohm\'s Law',
+    url: 'https://phet.colorado.edu/sims/html/ohms-law/latest/ohms-law_en.html'
   },
 };
 

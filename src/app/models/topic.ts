@@ -1,6 +1,38 @@
 import { ItemOfLearning } from './item-of-learning'
 
 const TOPICS = {
+  'n5maths': {
+    'numerical': {
+      name: 'Numerical Skills',
+      iolIds: [
+      ]
+    },
+    'algebraic': {
+      name: 'Algebraic Skills',
+      iolIds: [
+      ]
+    },
+    'geometric': {
+      name: 'Geometric Skills',
+      iolIds: [
+      ]
+    },
+    'trigonometric': {
+      name: 'Trigonometric Skills',
+      iolIds: [
+      ]
+    },
+    'statistic': {
+      name: 'Statistical Skills',
+      iolIds: [
+      ]
+    },
+    'reasoning': {
+      name: 'Reasoning Skills',
+      iolIds: [
+      ]
+    }
+  },
   'n5physics': {
     'dynamics': {
       name: 'Dynamics',

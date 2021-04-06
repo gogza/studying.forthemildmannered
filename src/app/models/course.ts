@@ -1,6 +1,32 @@
 import { Topic } from './topic'
 
 export const COURSES = {
+    'n5maths': {
+      name: 'National 5 Mathematics',
+      topicIds: [
+        'numerical',
+        'algebraic',
+        'geometric',
+        'trigonometric',
+        'statistic',
+        'reasoning'
+      ],
+      specification: 'https://www.sqa.org.uk/sqa/files_ccc/MathematicsCourseSpecN5.pdf',
+      pastPapers: {
+        '2019': {
+          questionPaperUrl: 'https://www.sqa.org.uk/pastpapers/papers/papers/2019/N5_Mathematics_all_2019.pdf',
+          markingInstructionsUrl: 'https://www.sqa.org.uk/pastpapers/papers/instructions/2019/mi_N5_Mathematics_all_2019.pdf'  
+        },
+        '2018': {
+          questionPaperUrl: 'https://www.sqa.org.uk/pastpapers/papers/papers/2018/N5_Mathematics_all_2018.pdf',
+          markingInstructionsUrl: 'https://www.sqa.org.uk/pastpapers/papers/instructions/2018/mi_N5_Mathematics_all_2018.pdf'  
+        },
+        '2017': {
+          questionPaperUrl: 'https://www.sqa.org.uk/pastpapers/papers/papers/2017/N5_Mathematics_all_2017.pdf',
+          markingInstructionsUrl: 'https://www.sqa.org.uk/pastpapers/papers/instructions/2017/mi_N5_Mathematics_all_2017.pdf'  
+        }
+      }
+    },
     'n5physics': {
       name: 'National 5 Physics',
       topicIds: [

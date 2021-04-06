@@ -16,6 +16,11 @@
   <app-notes [notes]="iol.notes"></app-notes>
 </div>
 
+<div *ngIf="iol.tools && iol.tools.length">
+  <h3>Use these tools to experiment</h3>
+  <app-notes [notes]="iol.tools"></app-notes>
+</div>
+
 <div *ngIf="iol.youtubeIds && iol.youtubeIds.length">
   <h3>Watch these videos</h3>
   <youtube-player *ngFor="let id of iol.youtubeIds" [videoId]="id"></youtube-player>
